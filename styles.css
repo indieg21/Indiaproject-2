@@ -1,0 +1,63 @@
+/* import font */
+
+@font-face {
+	font-family: PlazaStdv;
+	src: url('font/PlazaStd.otf');
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+a {
+    letter-spacing: 2px;
+}
+body {
+	margin: 0 !important;
+	padding: 0 !important;
+	background: #f2f2f2 !important;
+	font-family: PlazaStdv !important;
+}
+img {
+	width: 100%;
+}
+/* menu css */
+
+.mb-2 {
+	margin-bottom: 2.5rem!important;
+}
+.text_design {
+	font-size: 20px;
+	text-align: justify;
+}
+
+.btn_style {
+	background: darkgray ;
+	color: white ;
+	text-decoration: none ;
+	padding: 5px 20px;
+	font-size: 18px;
+}
+.text-container p {
+	margin-bottom: 14px;
+}
+.team_section h3 {
+	margin-top: 15px;
+	line-height: 1.4;
+}
+.bg-light {
+	background-color: cadetblue !important;
+}
+.text_container_1 {
+    font-size: 35px !important;
+    line-height: 1.5 !important;
+    text-align: center !important;
+}
+
+
+/* Tab css */
+@media only screen and (max-width: 768px) {
+	.text_container_1 {
+    font-size: 24px !important;
+   
+}
+}
